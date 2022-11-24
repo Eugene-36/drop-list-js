@@ -2,7 +2,6 @@ const handleDropdownCLicked = (event) => {
   event.stopPropagation();
 
   const dropdown = document.getElementById('dropdown');
-  console.log('dropdown', dropdown);
   toggleDropdown(!dropdown.classList.contains('open'));
 };
 
